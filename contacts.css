@@ -1,0 +1,29 @@
+body{background-color: rgba(24, 25, 27, 0.973);}
+
+header,nav,main,footer{ margin-left: auto; margin-right: auto; width: 100%;}
+
+header{ background-image: url(Banner.jpg); background-size:contain; background-position: left; background-repeat: no-repeat;height: 100px;width: 1440px; padding-top: 80px; }
+
+nav{background-color:rgba(161, 142, 142, 0.247); text-align: center; padding-top: 14px; padding-bottom: 14px;}
+
+nav a ,footer a{ text-decoration: none; font-size: 12px;padding-left: 25px;padding-right: 25px ; }
+main{ height: 400px; padding-top: 16px; padding-bottom: -1px ;}  
+
+h1,p{ text-align: center;}
+h1{ font-size: 100px; color: whitesmoke; /*font-family:Arial, Helvetica, sans-serif;*/ }
+
+footer{background-color: rgba(161, 142, 142, 0.678); height: 40px; text-align: center; }
+
+h1{ font-size: 30px; color: whitesmoke; /*font-family:Arial, Helvetica, sans-serif;*/ }
+
+
+footer p{font-size: 11px;}
+
+p,a{ font-size: 18px; color: whitesmoke; font-family:Arial, Helvetica, sans-serif;}
+a:hover{ transform: scale(2.1);background:rgba(16, 197, 197, 0.541);
+}
+
+
+section{ text-align: center;}
+
+
