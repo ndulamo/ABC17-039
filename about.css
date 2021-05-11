@@ -6,7 +6,7 @@ header{ background-image: url(Banner.jpg); background-size:contain; background-p
 
 nav{background-color:rgba(161, 142, 142, 0.247); text-align: center; padding-top: 14px; padding-bottom: 14px;}
 
-nav a ,footer a{ text-decoration: none; font-size: 18px;padding-left: 25px;padding-right: 25px ; }
+nav a { text-decoration: none; font-size: 18px;padding-left: 25px;padding-right: 25px ; }
 
 main{width: 100%; height: 400px; padding-top: 16px; padding-bottom: -1px ;}  
 
@@ -14,19 +14,34 @@ p{ text-align: justify;}
 
 h1{ font-size: 60px; color: black; text-align: center; font-family:Arial, Helvetica, sans-serif;}
 
+h2{font-size: 25px; color: black; text-align: left; font-family: sans-serif;}
+
+.container{ width: 100%; padding: 2px; margin: 115px auto; background: rgba(24, 25, 27, 0.068); display: flex; justify-content: right; }
+
+.box{ width: 320px; height: 300px; background:rgb(1, 132, 188); font-family: Arial, Helvetica, sans-serif; color: whitesmoke; text-align: center; float: left; margin: 0px 10px; transition: 1s;}
+
+ .box:hover{transform: scale(1.1); background:rgb(1, 132, 188);  }
+
+
 footer{background-color:rgba(161, 142, 142, 0.247) ; height: 40px; text-align: center; }
 
 h1{ font-size: 30px; color: black; /*font-family:Arial, Helvetica, sans-serif;*/ }
 
 
-footer p{font-size: 11px; text-align: center; padding-top: 20px}
+footer p{font-size: 11px; text-align: center; padding-top: 20px; margin-top: 150px}
 
 p,a{ font-size: 16px; color: black; font-family:Arial, Helvetica, sans-serif;}
 
 section{width: 100%; text-align: center; height: 200px;}
 
-a:hover{ transform: scale(1.5);background:rgba(1, 132, 188); display: inline-block;
-}
+a:hover{ transform: scale(1.5);background:rgba(1, 132, 188); display: inline-block;}
+
+a { font-family: sans-serif; text-decoration: none; display: inline-block; padding: 8px 16px;}
+
+.previous {background-color: #f1f1f1;color: black;}
 
 form{ width: 50%; height: 350px; text-align: center; padding: 50px;margin: 50px auto;font-family:arial, helvetica, sans-serif; color:azure; background-color:deepskyblue ;}
 
+ol{font-family: sans-serif;}
+
+li{margin: 10px;}
