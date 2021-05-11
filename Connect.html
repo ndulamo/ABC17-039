@@ -20,13 +20,19 @@
 <form action="thankyou.html" method="get" target="_blank" novalidate> 
   <fieldset> 
     <legend>Personal information:</legend>
-      
-    First name:<br> 
+    <label> 
+    First name 
+    </label> 
     <input type="text" name="FirstName"><br> 
-    Last name:<br> 
+    <label>
+    Last name
+    </label>
     <input type="text" name="LastName"><br>
-  <br>Email address:<br>
-    <input type="email" name="Email"><br>
+    <label>
+    <br>Email address:<br>
+    </label>
+    <input type="email" name="Email"><span class="req">*</span><br>
+      
  <label for="Newsletters">Choose the type of Newsletter:</label>
   <select id="Newsletter" name="Newsletter">
     <option value="Weekly">Weekly</option>

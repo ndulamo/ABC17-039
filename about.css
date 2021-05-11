@@ -27,3 +27,6 @@ section{width: 100%; text-align: center; height: 200px;}
 
 a:hover{ transform: scale(1.5);background:rgba(1, 132, 188); display: inline-block;
 }
+
+form{ width: 50%; height: 350px; text-align: center; padding: 50px;margin: 50px auto;font-family:arial, helvetica, sans-serif; color:azure; background-color:deepskyblue ;}
+
