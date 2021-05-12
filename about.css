@@ -14,7 +14,9 @@ p{ text-align: justify;}
 
 h1{ font-size: 60px; color: black; text-align: center; font-family:Arial, Helvetica, sans-serif;}
 
-h2{font-size: 25px; color: black; text-align: left; font-family: sans-serif;}
+h2{font-size: 25px; color: black; text-align: center; font-family: sans-serif;}
+
+h3{font-size: 15px; color: black;text-align: left; font-family: sans-serif}
 
 .container{ width: 100%; padding: 2px; margin: 115px auto; background: rgba(24, 25, 27, 0.068); display: flex; justify-content: right; }
 
