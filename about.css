@@ -42,6 +42,10 @@ a { font-family: sans-serif; text-decoration: none; display: inline-block; paddi
 
 .previous {background-color: #f1f1f1;color: black;}
 
+.previousp {background-color: #f1f1f1;color: black;}
+
+.pnext {background-color: #f1f1f1;color: black;}
+
 form{ width: 50%; height: 350px; text-align: center; padding: 50px;margin: 50px auto;font-family:arial, helvetica, sans-serif; color:azure; background-color:deepskyblue ;}
 
 ol{font-family: sans-serif;}
