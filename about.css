@@ -4,7 +4,7 @@ header,nav,main,footer{ margin-left: auto; margin-right: auto; width: 100%;}
 
 header{ background-image: url(Banner.jpg); background-size:contain; background-position: left; background-repeat: repeat;height: 100px;width: 100%; padding-top: 80px; }
 
-nav{background-color:rgba(161, 142, 142, 0.247); text-align: center; padding-top: 14px; padding-bottom: 14px;}
+nav{background-color:rgba(161, 142, 142, 0.247); text-align: center; padding-top: 14px; padding-bottom: 14px; text-decoration: underline;}
 
 nav a { text-decoration: none; font-size: 18px;padding-left: 25px;padding-right: 25px ; }
 
@@ -24,6 +24,7 @@ h3{font-size: 15px; color: black;text-align: left; font-family: sans-serif}
 
  .box:hover{transform: scale(1.1); background:rgb(1, 132, 188);  }
 
+ {text-decoration: underline;}
 
 footer{background-color:rgba(161, 142, 142, 0.247) ; height: 40px; text-align: center; }
 
@@ -36,7 +37,7 @@ p,a{ font-size: 16px; color: black; font-family:Arial, Helvetica, sans-serif;}
 
 section{width: 100%; text-align: center; height: 200px;}
 
-a:hover{ transform: scale(1.5);background:rgba(1, 132, 188); display: inline-block;}
+a:hover{ transform: scale(1.5);background:rgba(1, 132, 188); display: inline-block; text-decoration: underline;}
 
 a { font-family: sans-serif; text-decoration: none; display: inline-block; padding: 8px 16px;}
 
@@ -46,7 +47,11 @@ a { font-family: sans-serif; text-decoration: none; display: inline-block; paddi
 
 .pnext {background-color: #f1f1f1;color: black;}
 
-form{ width: 50%; height: 350px; text-align: center; padding: 50px;margin: 50px auto;font-family:arial, helvetica, sans-serif; color:azure; background-color:deepskyblue ;}
+form{ width: 50%; height: 350px; text-align: justify-all; padding: 50px;margin: 50px auto;font-family:arial, helvetica, sans-serif; color:azure; background-color:deepskyblue ;}
+
+label{text-align: justify;}
+
+input{width: 50%; height: 20px; margin: 10px;}
 
 ol{font-family: sans-serif;}
 
