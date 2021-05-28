@@ -47,11 +47,11 @@ a { font-family: sans-serif; text-decoration: none; display: inline-block; paddi
 
 .pnext {background-color: #f1f1f1;color: black;}
 
-form{ width: 50%; height: 350px; text-align: justify-all; padding: 50px;margin: 50px auto;font-family:arial, helvetica, sans-serif; color:azure; background-color:deepskyblue ;}
+form{ width: 50%; height: 600px; text-align: justify-all; padding: 50px;margin: 50px auto;font-family:arial, helvetica, sans-serif; color:azure; background-color:deepskyblue ;}
 
-label{text-align: justify;}
+label{text-align: justify; padding: 12px 12px 12px 0}
 
-input{width: 50%; height: 20px; margin: 10px;}
+input{width: 50%; height: 20px; margin: 10px; padding: 12px 20px; box-sizing: border-box;}
 
 ol{font-family: sans-serif;}
 

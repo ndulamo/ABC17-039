@@ -17,40 +17,29 @@
         <a href="Connect.html">Connect With Us </a>
     </nav>
 
-<form action="thankyou.html" method="get" target="_blank" novalidate> 
-  <fieldset> 
-    <legend>Personal information:</legend>
-    <label> 
-    First name 
-    </label> 
-    <input type="text" name="FirstName"><br> 
-    <label>
-    Last name
-    </label>
-    <input type="text" name="LastName"><br>
-    <label>
-    <br>Email address:<br>
-    </label>
-    <input type="email" name="Email"><span class="req"></span><br>
-    <label for="Newsletters">Choose the type of Newsletter:</label>
-  <select id="Newsletter" name="Newsletter">
-    <option value="Weekly">Weekly</option>
-    <option value="Fortnightly">Fortnightly</option>
-    <option value="Monthy" selected>Monthly</option>
-  </select><br>
-      <label for="Region" name="Region">Choose your Region:</label>
-      <select id="Region" name="Region">
-        <option value="USA">USA</option>
-        <option value="UAE">UAE</option>
-        <option value="Africa">Africa</option>
-        <option value="Europe">Europe</option>
-        <option value="Asia">Asia</option>
-      </select> <br> 
-      
-   <input type="reset" value="Reset">    
-  <input type="submit" value="Submit"> 
-  </fieldset>
-</form> 
+<div class="form"> 
+    <form name="connectwithus" id="connectwithus" action="thankyou.html" method="get" target="_self">
+        <li> <label for="first name" class="lbl">First Name:</label>
+            <input type="text" id="firstname" name="firstname" placeholder="Enter First Name" required oninvalid="this.setCustomValidity('Please enter first name.')" oninput="this.CustomValidity('')"/> </li> 
+        <br> <li> <label for="last name" class="lbl">Surname:</label>
+        <input type="text" id="surname" name="surname" placeholder="Enter Surname" required oninvalid="this.setCustomValidity('Please enter surname.')" oninput="this.CustomValidity('')"/> </li>
+        <br> <li> <Label for="email" class="lbl">Email:</Label> 
+        <input type="email" id="email" name="email" placeholder="Enter Email" required oninvalid="this.setCustomValidity('Please enter email.')" oninput="this.CustomValidity('')"/> </li> 
+        <br> <li> <label for="country" class="lbl">Country:</label>
+        <input type="text" id="country" name="country" placeholder="Enter Country" required oninvalid="this.setCustomValidity('Please enter first country.')" oninput="this.CustomValidity('')"/> </li>
+        <br> <li> <label for="region" class="lbl">Region:</label> 
+        <input type="text" id="region" name="region" placeholder="Enter Region" required oninvalid="this.setCustomValidity('Please enter first region.')" oninput="this.CustomValidity('')"/> </li> 
+        <br> <li> <label for="Newsletters">Choose the type of Newsletter:</label>
+        <select id="Newsletter" name="Newsletter">
+        <option value="Weekly">Weekly</option>
+        <option value="Fortnightly">Fortnightly</option>
+        <option value="Monthy" selected>Monthly</option>
+        </select> </li> 
+        <br> <li> <input type="Submit" value="Submit"> 
+        <input type="Reset" value="Reset"> 
+    
+    </form> 
+    </div>
 
     
     
